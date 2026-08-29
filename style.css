@@ -122,21 +122,30 @@ nav a:hover {
 
 @media (max-width: 450px) {
   .produits {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 0 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 0 8px;
   }
 
   .produit {
-    padding: 15px;
+    padding: 8px;
+  }
+
+  .produit h2 {
+    font-size: 0.75rem;
+  }
+
+  .prix {
+    font-size: 0.85rem;
+  }
+
+  button {
+    padding: 8px 10px;
+    font-size: 0.65rem;
   }
 }
 
-@media (max-width: 450px) {
-  .produits {
-    grid-template-columns: 1fr;
-  }
-}
+
 .produit h2 {
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
